@@ -1,19 +1,19 @@
 {
-  "name": "TmallDecoration",
-  "version": "1.0.0",
-  "description": "",
+  "name": "taobao-tmall-decoration",
+  "version": "1.0.1",
+  "description": "Node code for writing Taobao store or Tmall store frontend fitting prototype easily",
   "main": "index.js",
   "scripts": {
+    "build": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Tmall", "Taobao", "Decoration"],
+  "author": "zx.wang",
   "license": "ISC",
   "devDependencies": {
     "cheerio": "^0.20.0",
     "colors": "^1.1.2",
     "css": "^2.2.1",
-    "glob": "^7.0.5",
-    "watch": "^0.19.1"
+    "glob": "^7.0.5"
   }
 }

@@ -46,7 +46,9 @@ entryHtml.forEach((filePath) => {
       let href = $(v).attr("href");
 
       href = path.resolve(filePath, "../../" + href);
+
       let hrefType = href.slice(href.lastIndexOf('.') + 1);
+
       if (['css'].indexOf(hrefType) == -1) {
         // statement
         return false;
