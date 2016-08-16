@@ -5,28 +5,35 @@ the code realize the function of outreach CSS into an inline CSS, so we can use 
 
 这是一个将外联样式转换成内联样式的Nodejs脚本，在我们编写原型的时候使用外联样式书写，运行它之后就可以自动转换成内联样式，这可以有效提升我们在装修淘宝、天猫店铺时书写原型的效率，不用自己手动书写内联样式。
 
-### quick start
+#### 快速开始
 
-#### Install
+- 本地安装模块
+
 ```
 npm install taobao-tmall-decoration --save-dev
-cd taobao-tmall-decoration
-npm install 
 ```
-#### How to use
+- 新建Html原型文件夹 => 如：`/tmpl`
+- 新建css文件夹 => 如：`css`
+- 新建执行脚本 => 如： `app.js`
+- 在脚本中添加代码，并把入口文件夹以及生成文件夹地址传入方法中，具体示例代码如下：
 
-- new HTML file under the tmpl folder and new CSS file under the css folder 
-- write CSS code to external way 
-- when you finish your code , run command:
+```
+var app = require('taobao-tmall-decoration');
+app.transformStyle('./tmpl', './dist');
+```
+- 在原型文件夹下外联书写html以及css代码，书写完毕后，执行自己添加的脚本如下：
 
- ```
- npm build
- ```
- 
- 
-### 注意：
+```
+node app.js
+```
+- 你会发现你的dist文件夹下已经生成了以内联的方式书写在原型dom上的HTML了，这样就可以用它来装修淘宝天猫店铺了
 
-本包目前还是一个完整的实例，还没有拆分成标准的npm包模块，所以下载本包以后，直接将taobao-tmall-decoration文件夹提取出来，然后shell下`cd taobao-tmall-decoration`目录下，`npm install`安装本地依赖的包模块，然后在tmpl以及css文件夹下书写原型即可，书写完毕后，执行`npm build`命令就ok了，然后在dist文件夹下就生成了内联样式的html了。后续有时间，我会改写成标准的npm包模块，请见谅。
- 
+####注： 详细请参考example文件夹
+
+
+
+
+
+
 
 

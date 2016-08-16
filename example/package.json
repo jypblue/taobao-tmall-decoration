@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "build": "node demo.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
