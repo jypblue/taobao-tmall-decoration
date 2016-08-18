@@ -3,7 +3,9 @@
   "version": "1.0.5",
   "description": "Node code for writing Taobao store or Tmall store frontend fitting prototype easily",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha test/app.test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:jypblue/taobao-tmall-decoration.git"

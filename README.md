@@ -1,5 +1,5 @@
 ## taobao-tmall-decoration
-[![npm version](https://img.shields.io/npm/v/taobao-tmall-decoration.svg?style=flat-square)](https://www.npmjs.com/package/taobao-tmall-decoration) [![npm downloads](https://img.shields.io/npm/dm/taobao-tmall-decoration.svg?style=flat-square)](https://www.npmjs.com/package/taobao-tmall-decoration)
+[![npm version](https://img.shields.io/npm/v/taobao-tmall-decoration.svg?style=flat-square)](https://www.npmjs.com/package/taobao-tmall-decoration) [![npm downloads](https://img.shields.io/npm/dm/taobao-tmall-decoration.svg?style=flat-square)](https://www.npmjs.com/package/taobao-tmall-decoration) [![build](https://travis-ci.org/jypblue/taobao-tmall-decoration.svg?branch=master)](https://travis-ci.org/jypblue/taobao-tmall-decoration)
 
 the code realize the function of outreach CSS into an inline CSS, so we can use it to write Taobao store or Tmall store front end fitting prototype easily.
 
