@@ -22,7 +22,7 @@ describe('style transform test', function() {
   });
 
   it('start path should exists', function() {
-    let flagt = fs.existsSync(tmplDir);
+    var flagt = fs.existsSync(tmplDir);
     expect(flagt).to.be.true;
   });
 });
