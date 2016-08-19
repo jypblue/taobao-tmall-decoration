@@ -7,9 +7,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const {
-  expect
-} = require('chai');
+const chai = require('chai');
+const expect = chai.expect;
 let app = require('../index.js');
 
 const tmplDir = path.resolve(__dirname, '../example/tmpl/');
