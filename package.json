@@ -1,6 +1,6 @@
 {
   "name": "taobao-tmall-decoration",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Node code for writing Taobao store or Tmall store frontend fitting prototype easily",
   "main": "index.js",
   "scripts": {

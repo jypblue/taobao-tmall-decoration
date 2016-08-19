@@ -4,3 +4,26 @@
  * @date    2016-08-18 14:55:11
  * @version $Id$
  */
+
+const fs = require('fs');
+const path = require('path');
+const {
+  expect
+} = require('chai');
+let app = require('../index.js');
+
+const tmplDir = path.resolve(__dirname, '../example/tmpl/');
+const distDir = path.resolve(__dirname, '../example/dist/');
+
+describe('style transform test', function() {
+
+  it('path should be a string', function() {
+    expect(tmplDir).to.be.a('string');
+    expect(distDir).to.be.a('string');
+  });
+
+  it('start path should exists', function() {
+    let flagt = fs.existsSync(tmplDir);
+    expect(flagt).to.be.true;
+  });
+});
