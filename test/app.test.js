@@ -9,10 +9,10 @@ const fs = require('fs');
 const path = require('path');
 const chai = require('chai');
 const expect = chai.expect;
-let app = require('../index.js');
+var app = require('../index.js');
 
-const tmplDir = path.resolve(__dirname, '../example/tmpl/');
-const distDir = path.resolve(__dirname, '../example/dist/');
+var tmplDir = path.resolve(__dirname, '../example/tmpl/');
+var distDir = path.resolve(__dirname, '../example/dist/');
 
 describe('style transform test', function() {
 
